@@ -8,34 +8,44 @@ var response = {
 	"message": "success",
 	"content": {
 		"session": {
-			"tokenV1": "eyJhbGciOiJIUzUxMiJ9.j12k5",
-			"tokenV2": "eyJhbGciOiJIUzI1NiJ9.qw712",
-			"renewedTokens": true,
-			"expiredSession": false,
-			"firstName": "Nick",
-			"lastName": "Palomino",
+			"tokenV1": "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MDE1OTA4MzEsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MDE1NjkyMzE1OTV9.XAP9GsAE8AajiZtJDvmAevMGOCK4_HJHSg0tDP0bhu4c4KuZ2Vt_gQxCgVOpCKWU5k1Kuobex5bVEBgPC5Hrug",
+			"tokenV2": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhNDM4NmEwYy1hOWYwLTQwZTUtODJiNy0xYWJkZmExMGUyZWUiLCJpYXQiOjE2MDE1NjkyMzEsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJleHAiOjE2MDE1NzI4MzF9.kTKhshm2HMTQrEEFCWOhb6QeiqGa-GnJf34D9mrooIA",
+			"firstName": "Lucas",
+			"lastName": "Galvez",
+			"businessUnits": [
+				{
+					"identifier": "pregrado",
+					"profiles": [
+						{
+							// "identifier": "alumno-pregrado",
+							"identifier": "administrativo",
+							"options": [
+								{
+								"identifier": "reglamentos-web-home",
+								"name": "reglamentos-web-home",
+								"description": "reglamentos-web-home",
+								"id": 79,
+								"type": "WEB_OPTION",
+								"value": "/home",
+								"order": 0
+								}
+							],
+							"description": "Alumno PreGrado"
+						}
+					]
+				}
+			],
+			"position": "staff",
+			"category": "staff",
 			"email": "lgalvez@utec.edu.pe",
-			"category": "profesor",
-			"position": "profesortc",
-			"profile": "profesor-coordinador-director",
-			"businessUnit": "pregrado",
-			"app": "web-docentes",
-			"options": [
-			{
-				"id": 24,
-				"identifier": "home",
-				"name": "Reportes Académicos",
-				"description": "Reportes Académicos",
-				"value": "https://nativosdigitales.pe/",
-				"order": 11,
-				"type": "WEB_OPTION",
-				"icon": "open-link"
-			}
-			]
+			"renewedTokens": false,
+			"expiredSession": false
 		},
 		"settings": {
 			"reglamentosApi": {
-			"baseUrl": "http://localhost:3000/agreementsalumno/"
+			// "baseUrl": "http://localhost:3000/agreementsalumno/"
+			// "baseUrl": "https://api-test4.utec.net.pe/reglamentos-api/AgreementsAlumno/"
+			"baseUrl": "https://api.utec.edu.pe/reglamentos-api/AgreementsAlumno/"
 			}
 		}
 	}
@@ -49,4 +59,4 @@ app.get('/settings.json', function(req, res) {
   res.json(response);
 });
 
-app.listen(process.env.PORT || 8001);
+app.listen(process.env.PORT || 8000);
