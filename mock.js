@@ -8,7 +8,7 @@ var response = {
 	"message": "success",
 	"content": {
 		"session": {
-			"tokenV1": "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MDE1OTA4MzEsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MDE1NjkyMzE1OTV9.XAP9GsAE8AajiZtJDvmAevMGOCK4_HJHSg0tDP0bhu4c4KuZ2Vt_gQxCgVOpCKWU5k1Kuobex5bVEBgPC5Hrug",
+			"tokenV1": "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MDUzMTQ0NDUsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MDUxOTQ0NDU3NDZ9.PL0Dq-q1OR8_DsB6nsdXt7Lcy35IQMhUYV3uq6y04-yWzoWdHJeAyzXcd9zG77gfhe7MO0JD4lzEPWZbKxnI0g",
 			"tokenV2": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhNDM4NmEwYy1hOWYwLTQwZTUtODJiNy0xYWJkZmExMGUyZWUiLCJpYXQiOjE2MDE1NjkyMzEsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJleHAiOjE2MDE1NzI4MzF9.kTKhshm2HMTQrEEFCWOhb6QeiqGa-GnJf34D9mrooIA",
 			"firstName": "Lucas",
 			"lastName": "Galvez",
@@ -43,9 +43,9 @@ var response = {
 		},
 		"settings": {
 			"reglamentosApi": {
-			// "baseUrl": "http://localhost:3000/agreementsalumno/"
+			"baseUrl": "http://localhost:3000/agreementsalumno/"
 			// "baseUrl": "https://api-test4.utec.net.pe/reglamentos-api/AgreementsAlumno/"
-			"baseUrl": "https://api.utec.edu.pe/reglamentos-api/AgreementsAlumno/"
+			// "baseUrl": "https://api.utec.edu.pe/reglamentos-api/AgreementsAlumno/"
 			}
 		}
 	}

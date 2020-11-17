@@ -8,7 +8,8 @@
     "cors": "2.8.1"
   },
   "scripts": {
-    "start": "node mock.js"
+    "start": "node mock.js",
+    "dev": "nodemon mock.js"
   },
   "main": "quote"
 }
