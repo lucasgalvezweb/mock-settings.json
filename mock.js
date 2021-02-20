@@ -8,7 +8,7 @@ var response = {
   content: {
     session: {
       tokenV1:
-        "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MTI1NjYzOTIsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MTI0NDYzOTIyMDh9.OGOu6wDiLebnYUQAIknkhgpillId_GnjRXRAJqUgio1TdviP2NCiuAT5dCB_dlnKIspem2NLkfEMIzHMzlpR4Q",
+        "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MTM4OTM3NTgsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MTM3NzM3NTg1MDR9._eLjwGnJeZlZywi-fHnBUz5tgyHyR7vEFeapufofYdwVAorQocORq-81tpu6hQ-bRGTWspxr4wv8-VeaAg1OWw",
       tokenV2:
         "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NmU4MzBhOS1hYzdkLTQ2YzQtODQxYS0wOWM5YTk5MTg4OWMiLCJpYXQiOjE2MDgwNDUyOTcsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJleHAiOjE2MDgwNDg4OTd9.uT67NA26ZNupylGPqJf2SVQzKN6huIiVfEBR7Bws9H8",
       firstName: "Lucas",
