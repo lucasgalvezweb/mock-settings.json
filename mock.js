@@ -8,7 +8,7 @@ var response = {
   content: {
     session: {
       tokenV1:
-        "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MTM4OTM3NTgsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MTM3NzM3NTg1MDR9._eLjwGnJeZlZywi-fHnBUz5tgyHyR7vEFeapufofYdwVAorQocORq-81tpu6hQ-bRGTWspxr4wv8-VeaAg1OWw",
+        "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MTQyMDU4NDYsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJhdWRpZW5jZSI6InVuZGV0ZXJtaW5lZCIsImNyZWF0ZWQiOjE2MTQwODU4NDYxODB9.ofFV_VRQfytyW5ekUm5_fW4kZJbUvTdiFkmjgYwDNQZ63GMDEVS7zsw8PO_N8H8PKOoj4UgmIim7PVqS-ifUyA",
       tokenV2:
         "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NmU4MzBhOS1hYzdkLTQ2YzQtODQxYS0wOWM5YTk5MTg4OWMiLCJpYXQiOjE2MDgwNDUyOTcsInN1YiI6ImxnYWx2ZXpAdXRlYy5lZHUucGUiLCJleHAiOjE2MDgwNDg4OTd9.uT67NA26ZNupylGPqJf2SVQzKN6huIiVfEBR7Bws9H8",
       firstName: "Lucas",
@@ -58,7 +58,8 @@ var response = {
     },
     settings: {
       reglamentosApi: {
-        baseUrl: "https://api-test4.utec.net.pe/reglamentos-api/",
+        /* baseUrl: "https://api-test4.utec.net.pe/reglamentos-api/", */
+        baseUrl: "http://localhost:3000/",
       },
     },
   },

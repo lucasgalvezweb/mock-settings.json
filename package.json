@@ -11,5 +11,8 @@
     "start": "node mock.js",
     "dev": "nodemon mock.js"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "main": "quote"
 }
